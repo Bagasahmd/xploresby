@@ -1,0 +1,195 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  font-weight: 400;
+}
+
+* {
+  z-index: 2;
+}
+
+.p-top20 {
+  padding-top: 20px;
+}
+
+.p-btm20 {
+  padding-bottom: 80px;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 3;
+  background-color: #048853;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.btn-pri {
+  width: 133px;
+  height: 40px;
+  font-weight: 500;
+  left: 1140px;
+  top: 38px;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  -webkit-text-fill-color: #048853;
+  font-weight: 600;
+}
+
+.btn-sec {
+  width: 133px;
+  height: 40px;
+  left: 1140px;
+  top: 38px;
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  -webkit-text-fill-color: #ffffff;
+}
+/* Navbar */
+
+/* Hero */
+#hero {
+  background: linear-gradient(160deg, #00985b, #000);
+  height: 100vh;
+  width: 100%;
+}
+.hero-img {
+  z-index: 1;
+}
+.hero-text h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+}
+.hero-text p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+.btn-pri-hero {
+  width: 237px;
+  height: 60px;
+  font-weight: 600;
+  left: 93px;
+  top: 478px;
+  border: none;
+  border-radius: 5px;
+  -webkit-text-fill-color: #048853;
+  background: #ffffff;
+}
+/* Layanan */
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: #048853;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#layanan p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.card-layanan {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px;
+  transition: all 0.2s ease-in;
+}
+
+/* If Hover */
+.card-layanan:hover {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #00985b;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px;
+  transition: all 0.2s ease-out;
+}
+
+/* Search Section */
+#cari {
+  background-image: url(../img/search\ image.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cari h2 {
+  color: #ffffff;
+  margin-top: 150px;
+}
+
+#cari p {
+  color: #ffffff;
+}
+
+.dropdown {
+  color: #ffffff;
+}
+
+.input-cari {
+  background-color: #ffffff;
+  height: 88px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.img-icon {
+  padding: 10px;
+}
+
+.btn-cari {
+  background-color: #00985b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#rekomendasi h4 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#rekomendasi h2 {
+  padding: 20px;
+}
+
+#rekomendasi h5 {
+  font-size: 14px;
+}
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  width: 22rem;
+}
+
+.card img {
+  border-radius: 5px;
+}
