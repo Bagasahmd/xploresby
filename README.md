@@ -10,6 +10,6 @@ Kelompok 12 - TI 2020 B
 -------------------------------------------------------------------------------------------------------
 
 Klik link berikut
-https://xploresby.netlify.app/
+...
 
 ![ss-web.png]( https://github.com/Bagasahmd/xploresby/blob/master/public/img/ss-web.png )
