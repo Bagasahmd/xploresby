@@ -15,9 +15,10 @@ return new class extends Migration
     {
         Schema::create('wisatas', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->text('excerp');
-            $table->text('body');
+            $table->char('nama');
+            $table->char('kategori');
+            $table->char('deskripsi');
+            $table->char('file_name');
             $table->timestamps();
         });
     }

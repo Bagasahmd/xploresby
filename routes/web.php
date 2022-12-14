@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Home;
 use App\Http\Controllers\WisataController;
 
 /*
@@ -14,9 +15,7 @@ use App\Http\Controllers\WisataController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', Home::class)->name('/');
 Route::get('/layanan', function () {
     return view('layanan');
 });

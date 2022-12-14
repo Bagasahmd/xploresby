@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Wisata extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'nama',
+        'kategori',
+        'deskripsi',
+        'file_name'
+    ];
 }

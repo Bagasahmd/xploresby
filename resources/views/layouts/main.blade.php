@@ -44,12 +44,19 @@
           </ul>
         </div>
         <div>
+          @auth
+          <a href="/dashboard">
+            <button class="btn-pri" >Dashboard</button>
+          </a>
+          @endauth
+          @guest
           <a href="/register">
-            <button class="btn-sec" href="/register" >Daftar</button>
+            <button class="btn-sec" >Daftar</button>
           </a>
           <a href="/login">
-            <button class="btn-pri" href="/login">Masuk</button>
+            <button class="btn-pri" >Masuk</button>
           </a>
+          @endguest
         </div>
       </div>
     </nav>
