@@ -7,7 +7,7 @@
         <section id="kontak">
             <section class="kontak_section">
               <div class="container">
-                <div class="heading_container">
+                <div class="heading_container text-center">
                   <h2>Kontak Kami</h2>
                   <h6>Anda dapat menuliskan pesan, saran, dan kritik</h6>
                 </div>

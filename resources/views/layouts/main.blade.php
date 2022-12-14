@@ -44,8 +44,12 @@
           </ul>
         </div>
         <div>
-          <button class="btn-sec">Daftar</button>
-          <button class="btn-pri">Masuk</button>
+          <a href="/register">
+            <button class="btn-sec" href="/register" >Daftar</button>
+          </a>
+          <a href="/login">
+            <button class="btn-pri" href="/login">Masuk</button>
+          </a>
         </div>
       </div>
     </nav>
@@ -53,7 +57,12 @@
     
         @yield('container')
     
-    
+        <footer class="bg-grey-200 text-center lg:text-left">
+          <div class="text-grey-700 text-center p-4" style="background-color: #0488535b;">
+            © 2022 Copyright <br>
+            <a class="text-gray-800" href="/">Xplore Surabaya</a>
+          </div>
+        </footer>
 
     <!-- jQery -->
     <script src="js/jquery-3.4.1.min.js"></script>
