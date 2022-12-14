@@ -1,6 +1,14 @@
 Website Xplore Surabaya
 Website ini dibuat untuk memenuhi project UAS mata kuliah web programming
 
+Website ini dibuat dengan teknologi :
+- Laravel 8
+- Bootstrap 5
+- Tailwind CSS
+- Jetstream
+- Livewire
+- MySql
+
 -------------------------------------------------------------------------------------------------------
 Kelompok 12 - TI 2020 B
 - Bagas Ahmad Sadewa   (20051204016)
