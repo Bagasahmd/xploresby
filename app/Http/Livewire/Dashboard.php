@@ -18,7 +18,9 @@ class Dashboard extends Component
             $file_name,
             $modal = false,
             $wisata_id,
-            $old_file_name;
+            $old_file_name,
+            $deleteConfirmation = false,
+            $deleteId;
 
     public function render()
     {
@@ -42,6 +44,7 @@ class Dashboard extends Component
         $this->kategori = "";
         $this->deskripsi = "";
         $this->file_name = null;
+        $this->deleteId = null;
     }
 
     public function store(){
@@ -88,6 +91,27 @@ class Dashboard extends Component
         $this->old_file_name = $wisata->file_name;
         $this->wisata_id = $id;
         $this->openModal();
+    }
+
+    public function openDeleteModal($id){
+        $this->deleteId = $id;
+        $this->deleteConfirmation = true;
+    }
+
+    public function closeDeleteModal(){
+        $this->deleteConfirmation = false;
+        $this->resetField();
+    }
+
+    public function delete($id){
+        $wisata = Wisata::find($id);
+        $result = $wisata->delete();
+        if($result != "0"){
+            session()->flash('message', 'Berhasil Menghapus Data');
+        }else{
+            session()->flash('errMessage', 'Gagal Menghapus Data');
+        }
+        $this->closeDeleteModal();
     }
 
 }
