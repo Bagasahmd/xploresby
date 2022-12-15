@@ -12,17 +12,60 @@
                     <div class="">
                         <div class="mb-4">
                             <label for="nama" class="block text-gray-700 text-sm font-bold mb-2">Nama Wisata:</label>
-                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nama" wire:model="nama">
+                            <input type="text" placeholder="Tulis Nama Tempat Wisata" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nama" wire:model="nama">
                             @error('nama') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
                         <div class="mb-4">
-                            <label for="jenis" class="block text-gray-700 text-sm font-bold mb-2">Deskripsi:</label>
-                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="jenis" wire:model="deskripsi">
+                            <label for="deskripsi" class="block text-gray-700 text-sm font-bold mb-2">Deskripsi:</label>
+                            <textarea
+                            class="
+                                form-control
+                                block
+                                w-full
+                                px-3
+                                py-1.5
+                                text-base
+                                font-normal
+                                text-gray-700
+                                bg-white bg-clip-padding
+                                border border-solid border-gray-300
+                                rounded
+                                transition
+                                ease-in-out
+                                m-0
+                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                                id="deskripsi" wire:model="deskripsi"
+                            "
+                            id="exampleFormControlTextarea13"
+                            rows="5"
+                            placeholder="Tulis deskripsi"
+                            ></textarea>
                             @error('deskripsi') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
                         <div class="mb-4">
-                            <label for="makanan" class="block text-gray-700 text-sm font-bold mb-2">Kategori:</label>
-                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="makanan" wire:model="kategori">
+                            <label for="kategori" class="block text-gray-700 text-sm font-bold mb-2">Kategori:</label>
+                            <select class="form-select form-select-sm
+                                appearance-none
+                                block
+                                w-full
+                                px-3
+                                py-2
+                                text-sm
+                                font-normal
+                                text-gray-700
+                                bg-white bg-clip-padding bg-no-repeat
+                                border border-solid border-gray-300
+                                rounded
+                                transition
+                                ease-in-out
+                                m-0
+                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label=".form-select-sm example" id="kategori" wire:model="kategori">
+                                <option selected>Pilih Kategori</option>
+                                <option value="Alam">Alam</option>
+                                <option value="Kuliner">Kuliner</option>
+                                <option value="Belanja">Belanja</option>
+                                <option value="Sejarah">Sejarah</option>
+                            </select>
                             @error('kategori') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
                         <div class="mb-4">

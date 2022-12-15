@@ -114,7 +114,7 @@
                                         </tr>
                                         @empty
                                             <h1 class="text-gray-700" text-center>
-                                                Tidak Ada Data
+                                                Tidak Tersedia Data
                                             </h1>
                                         @endforelse
                                     </tbody>
