@@ -64,6 +64,7 @@
                 <button wire:click="openModal" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl my-5 mx-5">
                     Tambah Data
                 </button>
+                <input wire:model="search" type="search" placeholder="Search posts by title...">
                 <div class="min-w-screen min-h-screen bg-gray-100  flex justify-center bg-gray-100 font-sans overflow-hidden">
                     <div class="w-full lg:w-5/6">
                         <div class="bg-white shadow-md rounded my-6">

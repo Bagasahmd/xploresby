@@ -25,9 +25,11 @@ class Dashboard extends Component
 
     public function render()
     {
-        $wisatas = Wisata::latest()->simplePaginate(10);
-        return view('dashboard',[
-            'wisatas'=>$wisatas
+        return view ('dashboard', [
+            'wisatas'=>$this->search === null ?
+                Wisata::latest()->simplePaginate(10) :
+                Wisata::latest()->where('nama', 'like', '%'. $this->search . '%')->simplePaginate(10),
+                
         ]);
     }
 
