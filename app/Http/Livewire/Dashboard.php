@@ -20,7 +20,8 @@ class Dashboard extends Component
             $wisata_id,
             $old_file_name,
             $deleteConfirmation = false,
-            $deleteId;
+            $deleteId,
+            $search;
 
     public function render()
     {
