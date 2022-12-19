@@ -1,4 +1,12 @@
-Website Xplore Surabaya
+<p align="center">
+  <a href="">
+    <img src="frontend/img/logo.png" alt="Xplore Sby Logo" width="75">
+  </a>
+</p>
+
+<h1 align="center">Xplore Surabaya</h1>
+<h4 align="center">Jelajahi Tempat Indah di Surabaya</h4>
+
 Website ini dibuat untuk memenuhi project UAS mata kuliah web programming
 
 Website ini dibuat dengan teknologi :
