@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Dashboard;
@@ -23,9 +24,8 @@ Route::get('/layanan', function () {
 Route::get('/explore', function () {
     return view('explore');
 });
-Route::get('/kontak', function () {
-    return view('kontak');
-});
+Route::get('/kontak-kami',[ContactController::class,'contact']);
+Route::post('/send-message',[ContactController::class,'sendEmail'])->name('contact.send');
 
 Route::middleware([
     'auth:sanctum',

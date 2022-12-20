@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('container')
-<!-- Search Section -->
+<!-- Kontak Section -->
 
     <div class="container p-top40">
       <div class="row">
@@ -14,21 +14,30 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form_container">
-                      <form action="">
+                      @if (Session::has('message_sent'))
+                        <div class="alert alert-success" role="alert">
+                          {{ Session::get('message_sent') }}
+                        </div>
+                      @endif
+                      <form method="POST" enctype="multipart/form-data" action="{{ route('contact.send') }}">
                         <div>
-                          <input type="text" class="form-control" placeholder="Nama" />
+                          <label for="nama">Nama</label>
+                          <input type="text" name="nama" class="form-control" placeholder="Nama" />
                         </div>
                         <div>
-                          <input type="text" class="form-control" placeholder="Nomor HP/WA" />
+                          <label for="hp">HP</label>
+                          <input type="text" name="hp" class="form-control" placeholder="Nomor HP/WA" />
                         </div>
                         <div>
-                          <input type="email" class="form-control" placeholder="E-mail" />
+                          <label for="email">Email</label>
+                          <input type="email" name="email" class="form-control" placeholder="E-mail" />
                         </div>
                         <div>
-                          <input type="text" class="form-control" placeholder="Isi Pesan" />
+                          <label for="pesan">Pesan</label>
+                          <input type="text" name="pesan" class="form-control" placeholder="Tulis Pesan Anda Disini" />
                         </div>
                         <div class="btn_box">
-                          <button>Kirim</button>
+                          <button type="submit">Kirim</button>
                         </div>
                       </form>
                     </div>
@@ -46,8 +55,5 @@
       </div>
     </div>
 
-  <!-- End of Search Section -->    
-<!-- Kontak Section -->
-    
-      <!-- End of Kontak Section -->
+<!-- End of Kontak Section -->
 @endsection
