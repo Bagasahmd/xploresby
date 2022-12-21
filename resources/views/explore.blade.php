@@ -14,7 +14,26 @@
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane show active">
               <div class="input-group mb-3 input-cari">
+<<<<<<< HEAD
                 <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Temukan wisata terbaikmu anda disini" />
+=======
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded=""><img class="img-icon" src="img/home-icon.png" alt="" />Jenis Wisata</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Wisata Kuliner</a></li>
+                  <li><a class="dropdown-item" href="#">Wisata Belanja</a></li>
+                  <li><a class="dropdown-item" href="#">Wisata Alam</a></li>
+                  <li><a class="dropdown-item" href="#">Wisata Sejarah</a></li>
+                </ul>
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="img-icon" src="img/range-icon.png" alt="" />Lokasi</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Surabaya Barat</a></li>
+                  <li><a class="dropdown-item" href="#">Surabaya Timur</a></li>
+                  <li><a class="dropdown-item" href="#">Surabaya Utara</a></li>
+                  <li><a class="dropdown-item" href="#">Surabaya Selatan</a></li>
+                  <li><a class="dropdown-item" href="#">Surabaya Pusat</a></li>
+                </ul>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari sesuai kebutuhan anda disini" />
+>>>>>>> 3caeca8 (add some features)
                 <button class="btn-cari">Cari</button>
               </div>
             </div>
@@ -82,7 +101,11 @@
                     </div>
                     <div class="detail-box">
                       <h5>Tunjungan</h5>
+<<<<<<< HEAD
                       <p>Terdapat pusat perbelanjaan dan juga banyak toko yang terdapat di Jl Tunjungan Surabaya</p>
+=======
+                      <p>Terdapat pusat perbelanjaan dan juga banyak toko yang terdapat di Jalan Tunjungan Surabaya</p>
+>>>>>>> 3caeca8 (add some features)
                       <div class="options">
                         <h6>HTM FREE</h6>
                         <a href=""> > </a>
@@ -184,7 +207,11 @@
                     </div>
                     <div class="detail-box">
                       <h5>Tunjungan</h5>
+<<<<<<< HEAD
                       <p>Terdapat pusat perbelanjaan dan juga banyak toko yang terdapat di Jl Tunjungan Surabaya</p>
+=======
+                      <p>Terdapat pusat perbelanjaan dan juga banyak toko yang terdapat di Jalan Tunjungan Surabaya</p>
+>>>>>>> 3caeca8 (add some features)
                       <div class="options">
                         <h6>HTM FREE</h6>
                         <a href=""> > </a>
@@ -198,6 +225,14 @@
           <div class="btn-box">
             <a href=""> Tampilkan semua </a>
           </div>
+<<<<<<< HEAD
+=======
+
+          
+
+
+
+>>>>>>> 3caeca8 (add some features)
         </div>
       </section>
       <!-- Explore Section -->

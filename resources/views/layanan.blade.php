@@ -16,7 +16,11 @@
                   <img src="img/search-icon.png" alt="" />
                 </div>
                 <h3>Cari Destinasi</h3>
+<<<<<<< HEAD
                 <p>Membantu mencari destinasi terbaik yang dapat kamu kunjungi dengan berbagai pilihan menarik</p>
+=======
+                <p>Cari destinasi terbaik yang dapat kamu kunjungi dengan berbagai pilihan menarik</p>
+>>>>>>> 3caeca8 (add some features)
               </div>
             </div>
             <div class="col-md-4">

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3caeca8 (add some features)
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,7 +43,14 @@
               <a class="nav-link" href="/explore">EXPLORE</a>
             </li>
             <li class="nav-item mx-3">
+<<<<<<< HEAD
               <a class="nav-link" href="/kontak-kami">KONTAK</a>
+=======
+              <a class="nav-link" href="/komentar">KOMENTAR</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="/kontak">KONTAK</a>
+>>>>>>> 3caeca8 (add some features)
             </li>
           </ul>
         </div>

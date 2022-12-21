@@ -5,18 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Wisata extends Model
+class Comment extends Model
 {
     use HasFactory;
-<<<<<<< HEAD
-=======
-    public $wisatas;
->>>>>>> 3caeca8 (add some features)
+    public $comments;
 
     protected $fillable = [
         'nama',
-        'kategori',
-        'deskripsi',
-        'file_name'
+        'pesan'
     ];
 }

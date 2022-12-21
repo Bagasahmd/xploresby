@@ -16,11 +16,28 @@ body {
     padding-top: 40px;
 }
 
+<<<<<<< HEAD
+=======
+.p-top80 {
+    padding-top: 80px;
+}
+
+.p-btm80 {
+    padding-bottom: 20px;
+}
+
+>>>>>>> 3caeca8 (add some features)
 .p-btm20 {
     padding-bottom: 80px;
 }
 
+<<<<<<< HEAD
 /* Navbar */
+=======
+
+/* Navbar */
+
+>>>>>>> 3caeca8 (add some features)
 .navbar {
     z-index: 3;
     background-color: #048853;
@@ -57,23 +74,45 @@ body {
     font-weight: 500;
     -webkit-text-fill-color: #ffffff;
 }
+<<<<<<< HEAD
 /* Navbar */
 
 /* Hero */
+=======
+
+
+/* Navbar */
+
+
+/* Hero */
+
+>>>>>>> 3caeca8 (add some features)
 #hero {
     background: linear-gradient(160deg, #00985b, #000);
     height: 100vh;
     width: 100%;
 }
+<<<<<<< HEAD
 .hero-img {
     z-index: 1;
 }
+=======
+
+.hero-img {
+    z-index: 1;
+}
+
+>>>>>>> 3caeca8 (add some features)
 .hero-text h1 {
     color: #ffffff;
     font-weight: 700;
     font-size: 45px;
     line-height: 60px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3caeca8 (add some features)
 .hero-text p {
     color: #ffffff;
     font-size: 16px;
@@ -82,6 +121,10 @@ body {
     margin-bottom: 40px;
     width: 90%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3caeca8 (add some features)
 .btn-pri-hero {
     width: 237px;
     height: 60px;
@@ -93,7 +136,14 @@ body {
     -webkit-text-fill-color: #048853;
     background: #ffffff;
 }
+<<<<<<< HEAD
 /* Layanan */
+=======
+
+
+/* Layanan */
+
+>>>>>>> 3caeca8 (add some features)
 h2 {
     font-size: 40px;
     font-weight: 600;
@@ -116,12 +166,22 @@ h3 {
     border-radius: 10px;
     background-color: #ffffff;
     margin-top: 30px;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+    margin-bottom: 90px;
+>>>>>>> 3caeca8 (add some features)
     padding: 40px;
     transition: all 0.2s ease-in;
 }
 
+<<<<<<< HEAD
 /* If Hover */
+=======
+
+/* If Hover */
+
+>>>>>>> 3caeca8 (add some features)
 .card-layanan:hover {
     width: 100%;
     border-radius: 10px;
@@ -133,7 +193,13 @@ h3 {
     transition: all 0.2s ease-out;
 }
 
+<<<<<<< HEAD
 /* Search Section */
+=======
+
+/* Search Section */
+
+>>>>>>> 3caeca8 (add some features)
 #cari {
     background-image: url(../img/search\ image.png);
     height: 100vh;
@@ -176,10 +242,20 @@ h3 {
     font-weight: 500;
 }
 
+<<<<<<< HEAD
 /* Menu Explore Wisata */
 #explore h2 {
     text-align: center;
 }
+=======
+
+/* Menu Explore Wisata */
+
+#explore h2 {
+    text-align: center;
+}
+
+>>>>>>> 3caeca8 (add some features)
 .explore_section .filters_menu {
     padding: 20;
     display: -webkit-box;
@@ -301,6 +377,10 @@ h3 {
     -ms-flex-pack: center;
     justify-content: center;
     margin-top: 45px;
+<<<<<<< HEAD
+=======
+    padding-bottom: 45px;
+>>>>>>> 3caeca8 (add some features)
 }
 
 .explore_section .btn-box a {
@@ -318,6 +398,99 @@ h3 {
     background-color: #62a974;
 }
 
+<<<<<<< HEAD
+=======
+
+/*komentar*/
+
+.komentar_section {
+    position: relative;
+}
+
+.komentar_section .heading_container {
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    background: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wrapper .form input {
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.wrapper .form textarea {
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.wrapper .form .btn {
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    transition: 0.3s all ease;
+}
+
+.wrapper .form .btn:hover {
+    opacity: 1;
+}
+
+.content {
+    text-align: center;
+    background: #2a9946;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.content p {
+    width: 100%;
+}
+
+
+/*kontak*/
+
+>>>>>>> 3caeca8 (add some features)
 .kontak_section {
     position: relative;
 }
@@ -377,4 +550,8 @@ h3 {
 
 .kontak_section .form_container button:hover {
     background-color: #2a9946;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3caeca8 (add some features)
